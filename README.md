@@ -10,6 +10,11 @@ QEMU简介:
   我没测试是否需要glibc库,最好安装ANMPP.
 
     tar -xjvf /sdcard/qemu.tar.bz2 -C /
+    mount -o remount,rw /
+    mount -o remount,rw /stsrem
+    tar -xjvf /sdcard/gnulibc.tar.bz2 -C /
+    mount -o remount,ro /system
+    mount -o remount,ro /
 
 复制代码
 用法:
