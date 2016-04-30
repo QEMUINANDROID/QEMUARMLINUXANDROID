@@ -18,8 +18,8 @@ QEMU简介:
 
 用法:
 你需要去:
-  https://people.debian.org/~aurel32/qemu/armel/
-去下载制作好的debian系统镜像.
+  https://people.debian.org/~aurel32/qemu/
+去下载不同构架的debian系统镜像.
 
     qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1"
     或
