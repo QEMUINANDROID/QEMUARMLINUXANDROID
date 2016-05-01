@@ -29,7 +29,7 @@ QEMU简介:
   qemu 2.5.1.
   
 测试机型:
-  小米 4 系统:cancro (cm-13 每夜版.) [debian_wheezy_armel] & [debian_sid_sh4]
+  小米 4 系统:cancro (cm-13 每夜版.) [debian_wheezy_armel & debian_sid_sh4].
   红米 2 系统:MIUI 7 6.3.3 | 开发版. [debian_wheezy_armel]
   
 注意:
