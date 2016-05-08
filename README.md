@@ -19,7 +19,7 @@ QEMU简介:
 用法:
 你需要去:
   https://people.debian.org/~aurel32/qemu/
-去下载不同构架的debian系统镜像.
+去下载ARM构架的debian系统镜像.
 
     qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1"
     或
@@ -29,7 +29,7 @@ QEMU简介:
   qemu 2.5.1.
   
 测试机型:
-  小米 4 系统:cancro (cm-13 每夜版.) [debian_wheezy_armel & debian_sid_sh4 & windows xp].
+  小米 4 系统:cancro (cm-13 每夜版.) [debian_wheezy_armel].
   红米 2 系统:MIUI 7 6.3.3 | 开发版. [debian_wheezy_armel]
   
 注意:
@@ -41,3 +41,7 @@ BUG:
 
 更新:
   qemu-2.6.0-rc3.
+
+更新:20160508
+  qemu-2.6.0-rc4.
+
