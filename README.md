@@ -29,8 +29,9 @@ QEMU简介:
   qemu 2.5.1.
   
 测试机型:
-  小米 4 系统:cancro (cm-13 每夜版.) [debian_wheezy_armel].
-  红米 2 系统:MIUI 7 6.3.3 | 开发版. [debian_wheezy_armel]
+  小米 4 系统:cancro (cm-13 每夜版),Android Kernel Version:3.4.0. [debian_wheezy_armel].
+  红米 2 系统:MIUI 7 6.3.3 | 开发版.Android Kernel Version:3.10.28. [debian_wheezy_armel].
+  OPPO R7 系统:Android version:4.4.4,Android Kernel Version:3.10.28. [debian_wheezy_armel].
   
 注意:
   QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败也只与你的ANDROID KERNEL相关,不与QEMU程序有关.
