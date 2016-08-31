@@ -19,11 +19,11 @@ QEMU简介:
 用法:
 你需要去:
   https://people.debian.org/~aurel32/qemu/
-去下载ARM构架的debian系统镜像.
+去下载Debian官方ARM构架的debian系统镜像.
 
     qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1"
     或
-    qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1" -vnc :6900 -redir tcp:2200::22 &
+    qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1" -vnc :6900 -redir tcp:22::22 &
 版本:
   gnulibc 2.17.
   qemu 2.5.1.
@@ -34,10 +34,10 @@ QEMU简介:
   OPPO R7 系统:Android version:4.4.4,Android Kernel Version:3.10.28. [debian_wheezy_armel].
   
 注意:
-  QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败也只与你的ANDROID KERNEL相关,不与QEMU程序有关.
+  QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败也只与你的ANDROID KERNEL相关.
 
 BUG:
-  如果你遇到bug可以给我发送Email:1605227279@qq.com,或者测试成功的机型告诉我哦.
+  如果你遇到Bug可以给我发送Email:1605227279@qq.com,或者测试成功的机型告诉我哦.
 
 
 更新:20160508
