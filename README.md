@@ -34,7 +34,7 @@ QEMU简介:
   OPPO R7 系统:Android version:4.4.4,Android Kernel Version:3.10.28. [debian_wheezy_armel].
   
 注意:
-  QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败也只与你的ANDROID KERNEL相关.
+  QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败与你的ANDROID KERNEL有关.
 
 BUG:
   如果你遇到Bug可以给我发送Email:1605227279@qq.com,或者测试成功的机型告诉我哦.
