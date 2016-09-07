@@ -41,11 +41,13 @@ BUG:
 
 
 更新:20160508
-  qemu-2.6.0-rc4.
+  QEMU VERSION 2.6.0-rc4.
 
 更新:20160512
-  qemu-2.6.0-rc5.
+  QEMU VERSION 2.6.0-rc5.
 
 更新:20160514
-  qemu-2.6.0.
+  QEMU VERSION 2.6.0.
 
+更新:20160907
+  QEMU VERSION 2.7.0
