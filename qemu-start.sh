@@ -9,7 +9,7 @@ qemu_init(){
     debian_home="/data/local"
     #DEBIAN系统镜像目录,可以修改.
 
-    LD_LIBRARY_PATH=/vendor/lib/:/system/lib/:${LD_LIBRARY_PATH}
+    LD_LIBRARY_PATH=/data/data/android.glibc/lib:/vendor/lib:/system/lib:${LD_LIBRARY_PATH}
     export LD_LIBRARY_PATH
 }
 
