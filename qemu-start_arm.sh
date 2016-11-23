@@ -6,10 +6,12 @@
 qemu_init(){
     qemu_home="/data/data/qemu"
     #QEMU程序目录,不要修改.
-    debian_home="/data/local"
+    debian_home="/data/local/armel"
     #DEBIAN系统镜像目录,可以修改.
 
-    LD_LIBRARY_PATH=/data/data/android.glibc/lib:/vendor/lib:/system/lib:${LD_LIBRARY_PATH}
+    PATH="/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin"
+    LD_LIBRARY_PATH="/data/data/android.glibc/lib:/vendor/lib:/system/lib:${LD_LIBRARY_PATH}"
+    export PATH
     export LD_LIBRARY_PATH
 }
 
