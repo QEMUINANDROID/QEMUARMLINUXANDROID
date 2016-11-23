@@ -29,10 +29,10 @@ ANMPP官网:http://anmpp.net/
   gnulibc 2.17.
   qemu 2.5.1.
   
-测试机型:
-  小米 4 系统:cancro (cm-13 每夜版),Android Kernel Version:3.4.0. [debian_wheezy_armel].
-  红米 2 系统:MIUI 7 6.3.3 | 开发版.Android Kernel Version:3.10.28. [debian_wheezy_armel].
-  OPPO R7 系统:Android version:4.4.4,Android Kernel Version:3.10.28. [debian_wheezy_armel].
+测试机型:\n
+  小米 4 系统:cancro (cm-13 每夜版),Android Kernel Version:3.4.0. [debian_wheezy_armel].\n
+  红米 2 系统:MIUI 7 6.3.3 | 开发版.Android Kernel Version:3.10.28. [debian_wheezy_armel].\n
+  OPPO R7 系统:Android version:4.4.4,Android Kernel Version:3.10.28. [debian_wheezy_armel].\n
   
 注意:
   QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败与你的ANDROID KERNEL有关.
