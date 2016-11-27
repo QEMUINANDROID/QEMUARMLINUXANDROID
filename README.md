@@ -25,14 +25,16 @@ ANMPP官网:http://anmpp.net/
     qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1"
     或
     qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1" -vnc :6900 -redir tcp:22::22 &
+
 版本:
   gnulibc 2.17.
   qemu 2.5.1.
   
 测试机型:
-小米 4 系统:cancro (cm-13 每夜版),Android Kernel Version:3.4.0. [debian_wheezy_armel].
-红米 2 系统:MIUI 7 6.3.3 | 开发版.Android Kernel Version:3.10.28. [debian_wheezy_armel].
-OPPO R7 系统:Android version:4.4.4,Android Kernel Version:3.10.28. [debian_wheezy_armel].
+小米 4 系统:cancro (cm-13 每夜版),Android内核版本:3.4.0. [debian_wheezy_armel].
+小米 4 系统:cancro (cm-14.1 每夜版),Android内核版本:3.4.0. [debian_wheezy_i386].
+红米 2 系统:MIUI 7 6.3.3 | 开发版.Android内核版本:3.10.28. [debian_wheezy_armel].
+OPPO R7 系统:Android version:4.4.4,Android内核版本:3.10.28. [debian_wheezy_armel].
 
 注意:
   QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败与你的ANDROID KERNEL有关.
@@ -59,3 +61,7 @@ BUG:
 
 更新:20161117
   QEMU VERSION 2.8.0-rc0.
+
+更新:20161127
+  QEMU VERSION 2.8.0-rc1.此版本更改安装目录为:/data/local/aixiao.qemu.为了迎合ARM ANDROID N.
+
