@@ -18,9 +18,8 @@ QEMU简介:
     mount -o remount,ro /
 
 用法:
-* 你需要去:
- https://people.debian.org/~aurel32/qemu/
-* 去下载Debian官方ARM构架的debian系统镜像.
+* 你需要去:https://people.debian.org/~aurel32/qemu/
+去下载Debian官方ARM构架的debian系统镜像.
 
     qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1"
     或
@@ -41,6 +40,7 @@ QEMU简介:
 
 BUG:
 * 如果你遇到Bug可以给我发送Email:1605227279@qq.com,或者测试成功的机型告诉我哦.
+
 
 
 更新:20160508
