@@ -7,8 +7,8 @@ QEMU简介:
 * 我移植QEMU到ARM LINUX和ANDROID.
 
 安装到ANDROID:
-* 我没测试是否需要gnulibc库,最好安装ANMPP.
-* ANMPP官网:http://anmpp.net/
+我没测试是否需要gnulibc库,最好安装ANMPP.
+ANMPP官网:http://anmpp.net/
 
     tar -xjvf /sdcard/qemu.tar.bz2 -C /
     mount -o remount,rw /
