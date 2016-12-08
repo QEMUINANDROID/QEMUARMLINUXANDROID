@@ -65,3 +65,6 @@ BUG:
 更新:20161127
 * QEMU VERSION 2.8.0-rc1.此版本更改安装目录为:/data/local/aixiao.qemu.为了迎合ARM ANDROID N.
 
+更新:20161208
+* QEMU VERSION 2.8.0-rc3
+
