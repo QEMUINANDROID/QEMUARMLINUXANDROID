@@ -15,10 +15,10 @@ function qemu_init(){
     #DEBIAN系统镜像目录,可以修改.
     
     debian_kernel="${debian_home}/vmlinuz-3.2.0-4-versatile"
-    #debian_wheezy_i386内核.
+    #debian_wheezy_armel内核.
     
     debian_initrd="${debian_home}/initrd.img-3.2.0-4-versatile"
-    #debian_wheezy_i386 ram磁盘.
+    #debian_wheezy_armel ram磁盘.
     
     debian_qcow2="${debian_home}/debian_wheezy_armel_standard.qcow2"
     #DEBIAN系统镜像文件.
