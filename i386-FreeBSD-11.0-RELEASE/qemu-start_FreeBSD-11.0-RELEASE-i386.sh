@@ -9,8 +9,8 @@
 #Network
 #echo ifconfig_em0="DHCP" >> /etc/defaults/rc.conf
 #/etc/netstart
-#echo 1.2.4.8 > /etc/resolv.conf
-#echo 210.2.4.8 >> /etc/resolv.conf
+#echo "nameserver 1.2.4.8" > /etc/resolv.conf
+#echo "nameserver 210.2.4.8" >> /etc/resolv.conf
 
 qemu_init() {
 
