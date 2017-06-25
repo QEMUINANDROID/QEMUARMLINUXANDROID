@@ -32,10 +32,8 @@ qemu_init(){
 }
 
 qemu_start(){
-    ${qemu_home}/bin/qemu-system-i386 -kernel ${debian_kernel} -initrd ${debian_initrd} -hda ${debian_qcow2} -append "root=/dev/sda1" ${qemu_parameter} &
+    nice -n -10 ${qemu_home}/bin/qemu-system-i386 -kernel ${debian_kernel} -initrd ${debian_initrd} -hda ${debian_qcow2} -append "root=/dev/sda1" ${qemu_parameter} &
 }
 
 qemu_init
 qemu_start
-#VNC server 6900端口是因为我ANDROID system无法使用5900端口,ssh server使用22端口转发登陆,当然你也可以自己指定.
-#如果需要转发端口,继续添加启动参数"-redir tcp:80::80 -redir tcp:443::443".

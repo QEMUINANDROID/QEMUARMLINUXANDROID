@@ -26,6 +26,6 @@ qemu_init() {
 }
 
 qemu_start() {
-    ${qemu_home}/bin/qemu-system-i386 -hda ${FreeBSD_11_0_RELEASE_i386_qcow2} ${qemu_parameter} &
+    nice -n -10 ${qemu_home}/bin/qemu-system-i386 -hda ${FreeBSD_11_0_RELEASE_i386_qcow2} ${qemu_parameter} &
 }
 

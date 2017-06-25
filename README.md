@@ -35,6 +35,12 @@ ANMPP官网:http://anmpp.net/
 * 红米 2 系统:MIUI 7 6.3.3 | 开发版.Android内核版本:3.10.28. [debian_wheezy_armel].
 * OPPO R7 系统:Android version:4.4.4,Android内核版本:3.10.28. [debian_wheezy_armel].
 
+目前能运行的官方系统:
+* Debian arm | i386
+
+* FreeBSD i386
+
+
 注意:
 * QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败与你的ANDROID KERNEL有关.
 
