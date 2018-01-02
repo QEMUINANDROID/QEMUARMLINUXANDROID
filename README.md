@@ -79,3 +79,7 @@ BUG:
 
 更新:
 * QEMU VERSION 2.9.0
+
+更新:
+* QEMU VERSION: 2.11.0, ARCH: arm
+
