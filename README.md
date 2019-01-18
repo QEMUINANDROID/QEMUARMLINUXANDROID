@@ -7,8 +7,6 @@ QEMU简介:
 * 我移植QEMU到ARM LINUX和ANDROID.
 
 安装到ANDROID:
-我没测试是否需要gnulibc库,最好安装ANMPP.
-ANMPP官网:http://anmpp.net/
 
     tar -xjvf /sdcard/qemu.tar.bz2 -C /
     mount -o remount,rw /
@@ -19,7 +17,7 @@ ANMPP官网:http://anmpp.net/
 
 用法:
   你需要去:https://people.debian.org/~aurel32/qemu/
-去下载Debian官方ARM构架的debian系统镜像.
+下载Debian官方ARM构架的debian系统镜像.
 
     qemu-system-arm -M versatilepb -kernel vmlinuz-3.2.0-4-versatile -initrd initrd.img-3.2.0-4-versatile -hda debian_wheezy_armel_standard.qcow2 -append "root=/dev/sda1"
     或
