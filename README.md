@@ -27,17 +27,16 @@ ANMPP官网:http://anmpp.net/
 
 版本:
 * gnulibc 2.17.
-* qemu 2.5.1.
+* qemu 3.0.0.
 
 
 目前能运行的官方系统:
 * Debian arm | i386
-
 * FreeBSD i386
 
 
 注意:
-* QEMU程序直接运行在你的内核之上,与内核息息相关,启动失败与你的ANDROID KERNEL有关.
+* QEMU程序直接运行在你的内核之上,与内核相关,启动失败与你的ANDROID KERNEL有关.
 
 BUG:
 * 如果遇到问题可以给我发Email: aixiao@aixiao.me,
